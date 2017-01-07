@@ -2,6 +2,12 @@ package com.elisakazan.actuamods;
 
 import java.util.Random;
 
+import com.elisakazan.actuamods.init.ModItems;
+import com.elisakazan.actuamods.lib.Names;
+
+import net.minecraft.init.Blocks;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemAppleGold;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -37,6 +43,8 @@ public class ActuaMods {
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		proxy.init(event);
+		
+		System.out.println("BURGER MOD >> "+ "item." + ActuaMods.RESOURCE_PREFIX + Names.BURGER_ITEM);
 	}
 	
 	@EventHandler

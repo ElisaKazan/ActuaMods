@@ -22,6 +22,6 @@ public class ItemBurger extends Item {
 	
 	@Override
 	public String getUnlocalizedName(ItemStack stack) {
-		return "item." + ActuaMods.RESOURCE_PREFIX +Names.BURGER_ITEM; //items.actua_mods:burger_item
+		return "item." + ActuaMods.RESOURCE_PREFIX + Names.BURGER_ITEM; //item.actua_mods:burger_item
 	}
 }

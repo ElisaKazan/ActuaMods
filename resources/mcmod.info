@@ -2,11 +2,15 @@
 {
   "modid": "actua_mods",
   "name": "Actua's Mods",
-  "description": "Actua's mods for the Burger Tree Activity",
+  "description": "Actua's mods for the Burger Tree Activity.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "https://github.com/ElisaKazan/ActuaMods",
-  "authors": [ "Elisa Kazan" ],
-  "credits": ""
+  "updateUrl": "",
+  "authorList": ["Elisa Kazan"],
+  "credits": "silentchaos512 for making the tutorials",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
 }
 ]

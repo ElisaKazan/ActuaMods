@@ -17,6 +17,7 @@ public class ModItems {
 	public static ItemBurger burgerItem;
 	
 	public static void init() {
+		// Puts the item in the game (pink and black cube)
 		burgerItem = new ItemBurger();
 		burgerItem.setRegistryName(new ResourceLocation(ActuaMods.MOD_ID, Names.BURGER_ITEM));
 		GameRegistry.register(burgerItem);
@@ -24,6 +25,7 @@ public class ModItems {
 	
 	@SideOnly(Side.CLIENT)
 	public static void initClient(ItemModelMesher mesher) {
+		// Connects the textures with the item (uses your images)
 		ModelResourceLocation model = new ModelResourceLocation(ActuaMods.RESOURCE_PREFIX + Names.BURGER_ITEM, "inventory");
 		ModelLoader.registerItemVariants(burgerItem, model);
 		mesher.register(burgerItem, 0, model);
