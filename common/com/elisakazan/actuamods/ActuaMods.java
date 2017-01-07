@@ -26,7 +26,7 @@ public class ActuaMods {
 	@Instance(MOD_ID)
 	public static ActuaMods instance;
 	
-	@SidedProxy(clientSide = "com.eliskazan.actuamods.ClientProxy", serverSide = "com.elisakazan.actuamods.CommonProxy")
+	@SidedProxy(clientSide = "com.elisakazan.actuamods.ClientProxy", serverSide = "com.elisakazan.actuamods.CommonProxy")
 	public static CommonProxy proxy;
 	
 	@EventHandler
