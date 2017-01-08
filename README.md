@@ -3,31 +3,31 @@ Minecraft Mods for Actua (Minecraft 1.11)
 
 ##List of New Items: 
 - Burger
-- Buns
+- Bun
 - Patty
 - Cheese
 - Lettuce
-- Tomatoes
+- Tomato
 - Pickles
 - Ketchup
 - Mayonnaise
 - Yeast
 - Oil
-- Cucumbers
+- Cucumber
 - Vinegar
 - Salt
-- Lemons
+- Lemon
 - Flour
 
 
 ##List of Items Already in Minecraft:
 - Milk
 - Wheat
-- Eggs
+- Egg
 - Sugar
 - Beef
 - Water
-- Apples
+- Apple
 - Seeds
 
 ##List of New Blocks: 
